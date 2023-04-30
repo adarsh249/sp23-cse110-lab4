@@ -1,0 +1,2 @@
+1. When you do this,  `let num1 = document.getElementById("num1").value;`, on line 5 and 6, it returns a string. Therefore, when you call `calculateSum` to calcualte the sum and use the addition operator, its just going to concatenate them since that is what JavaScript does with two strings.
+2. To fix this, we need to use the function parseInt() to essentially convert both strings to integers, so that when JavaScript sees two integers with the addition operator, it actually adds them together.
